@@ -6,7 +6,7 @@ public class ValidarNombre {
     public boolean validarNombre(String nombre){
         for (int i = 0; i < nombre.length(); i++) {
              letra = nombre.charAt(i);
-            if(!((letra >= 'a' && letra <= 'z')||(letra >= 'A'&& letra <= 'Z')||letra == ' ')){
+            if(!((letra >= 'A' && letra <= 'Z')||(letra >= 'a'&& letra <= 'z')||letra == ' ')){
                 return false;
             }
         }
